@@ -1,0 +1,98 @@
+.header{
+    height: 2rem;
+    width: 100%;
+    background-color: #1C4670;
+    display: flex;
+    color: white;
+    justify-content: end;
+    gap:2rem
+}
+.nav{
+    color: #272D37;
+    display: flex;
+    gap:3rem;
+    justify-content: end;
+    margin-left: 25rem;
+}
+.logo{
+    display: flex;
+  
+   padding-left: 4rem;
+}
+.btn{
+    height: 45px;
+    margin-top: 15px !important;
+}
+.bor{
+    margin-top: 1rem;
+    border: 0.5px solid rgb(186, 184, 184);
+}
+.dwd{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.header{
+    padding-top: 10px;
+}
+.folow{
+margin-right: 4rem;
+}
+.logo1{
+    padding-right: 10px;
+}
+.navBar{
+    padding-left: 1rem;
+}
+@media screen and (max-width: 992px) {
+    .header{
+      width: 90rem !important;
+    }
+    .footer1{
+margin-top: none !important;
+    }
+    .man1{
+margin-top: none;
+    }
+    .imgdiv {
+        justify-content: space-around;
+        display: flex
+    ;
+        margin-bottom: 4rem;
+    }
+    .trust{
+        margin-left: 36rem;
+    }
+    .service1 {
+        display: flex
+    ;
+        gap: 10rem;
+        padding-left: 13rem;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .header{
+        width: 90rem !important;
+      }
+      .footer1{
+        margin-top: none !important;
+            }
+            .man1{
+                /* margin-top: none; */
+                    }
+                    .imgdiv {
+                        justify-content: space-around;
+                        display: flex
+                    ;
+                        margin-bottom: 4rem;
+                    }
+                    .trust{
+                        margin-left: 36rem;
+                    }
+                    .service1 {
+                        display: flex
+                    ;
+                        gap: 10rem;
+                        padding-left: 13rem;
+                    }
+  }

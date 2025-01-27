@@ -1,0 +1,60 @@
+.iconhead{
+   justify-content: center;
+   text-align: center;
+  
+}
+.iconhead1{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.iconbody{
+    display: flex;
+    justify-content: space-between;
+}
+.iconbody2{
+    display: flex;
+    justify-content: space-between;
+}
+.iconbody3{
+    display: flex;
+    justify-content: space-between;
+}
+.iconbody2{
+    margin-right: 5rem;
+}
+.subpara{
+    margin-bottom: 2rem;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+}
+.iconbody4{
+ display: flex;
+ justify-content: space-between;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.manContainer{
+    margin-bottom: 2rem;
+}
+.mainHead{
+    padding-left: 2rem;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+@media screen and (max-width: 992px) {
+    .manContainer {
+      width: 90rem !important;}
+}
+   /* On screens that are 600px wide or less, the background color is olive */
+   @media screen and (max-width: 600px) {
+    .manContainer {
+      width: 90rem !important;}
+  
+  }

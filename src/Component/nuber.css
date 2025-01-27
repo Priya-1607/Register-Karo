@@ -1,0 +1,33 @@
+.nub{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.nub1{
+    display: flex;
+ gap:10rem;
+ margin-top: 2rem;
+ margin-bottom: 4rem;
+}
+.orangepara{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(235, 141, 21, 1);
+    line-height: 21px;
+}
+.mainHeading{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(39, 45, 55, 1);
+    line-height: 38px;
+}
+@media screen and (max-width: 992px) {
+    .nub {
+      width: 90rem !important;}
+}
+   /* On screens that are 600px wide or less, the background color is olive */
+   @media screen and (max-width: 600px) {
+    .nub {
+      width: 90rem !important;}
+  
+  }

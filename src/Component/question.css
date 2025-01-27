@@ -1,0 +1,63 @@
+.ques{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.ask{
+    width: 1272px;
+    height: 70px;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.14);
+    border-width: 2px;     /* Set border width */
+  border-style: solid;   /* Set border style (solid, dashed, dotted, etc.) */
+  border-color: rgba(0, 0, 0, 0.13); /* Set border color */
+  backdrop-filter: blur(4px);
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.ques1{
+    justify-content: center;
+}
+.arr{
+    margin-left: 50rem;
+    margin-top: 1.5rem;
+}
+.soft{
+    /* padding-left: 4px; */
+}
+.orangepara{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(235, 141, 21, 1);
+    line-height: 21px;
+}
+.mainHeading{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(39, 45, 55, 1);
+    line-height: 38px;
+}
+.mainHssseading{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: rgb(219, 119, 31);
+}
+.soft{
+    font-size: 15px;
+    padding-left: 10px;
+}
+.ques{
+    margin-bottom: 2rem;
+}
+@media screen and (max-width: 992px) {
+    .ques {
+      width: 90rem !important;}
+}
+   /* On screens that are 600px wide or less, the background color is olive */
+   @media screen and (max-width: 600px) {
+    .ques {
+      width: 90rem !important;}
+  
+  }

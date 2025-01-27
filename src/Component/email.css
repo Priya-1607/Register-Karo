@@ -1,0 +1,69 @@
+.email{
+   
+    height: 20rem;
+    width: 100%;
+    background-color: aquamarine;
+    /* background: linear-gradient(45deg, rgba(255, 162, 41, 1) 0%, rgba(28, 70, 112, 1)100%); */
+    background: linear-gradient(to right, rgba(255, 162, 41, 1), rgba(28, 70, 112, 1));
+    /* background: linear-gradient(136deg, rgba(255, 162, 41, 1) 45%, rgba(28, 70, 112, 1) 55%); */
+
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+}
+.int{
+    height: 2.5rem;
+    width: 26rem;
+    margin-top: 1rem;
+   
+}
+.tick{
+    display: flex;
+   
+    text-align: center;
+    margin-top: 2rem;
+}
+.hhdhd{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+.button{
+    height: 3rem;
+    background-color: rgba(255, 162, 41, 1);
+}
+.emailleft{
+    margin-top: 4rem;
+}
+.indu{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+.wel{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 1);
+}
+.intana{
+    padding-left: 10px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   color: rgba(255, 255, 255, 1);
+}
+.email{
+    padding-bottom: 2rem;
+}
+@media screen and (max-width: 992px) {
+    .email {
+      width: 90rem !important;}
+}
+   /* On screens that are 600px wide or less, the background color is olive */
+   @media screen and (max-width: 600px) {
+    .email {
+      width: 90rem !important;}
+  
+  }

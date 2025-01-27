@@ -1,0 +1,59 @@
+.trans{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.arrow{
+    display: flex;
+   
+}
+.btgrp{
+    display: flex;
+    gap: 1rem;
+}
+.trans1{
+    display: flex;
+    justify-content: space-around;
+    margin: 6rem;
+}
+.nsjw{
+    display: flex;
+}
+.mainHeading{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(39, 45, 55, 1);
+    line-height: 38px;
+}
+.orangepara{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(235, 141, 21, 1);
+    line-height: 21px;
+}
+.trans{
+    margin-top: 2rem;
+   
+}
+.date{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(102, 112, 133, 1);
+    line-height: 20px;
+}
+.arricon{
+  margin-left: -50px;
+}
+.seqpar{
+    
+}
+@media screen and (max-width: 992px) {
+    .trans {
+      width: 90rem !important;}
+}
+   /* On screens that are 600px wide or less, the background color is olive */
+   @media screen and (max-width: 600px) {
+    .trans {
+      width: 90rem !important;}
+  
+  }

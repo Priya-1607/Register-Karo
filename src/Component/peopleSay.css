@@ -1,0 +1,47 @@
+/* .carousel-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+  
+  .swiper-slide div {
+    width: 100%;
+    height: 100%;
+  } */
+  .container{
+    background-color: rgba(28, 70, 112, 1);
+    width: 100%;
+  }
+  .mainHead{
+    color: white;
+  }
+  .cardV{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+  }
+  .cardFooter{
+    display: flex;
+  }
+  .mainHead{
+    /* display: flex;
+    justify-content: center; */
+    padding-top: 2rem;
+
+  }
+  @media screen and (max-width: 992px) {
+    .container {
+      width: 90rem !important;}
+}
+   /* On screens that are 600px wide or less, the background color is olive */
+   @media screen and (max-width: 600px) {
+    .container {
+      width: 90rem !important;}
+  
+  }

@@ -1,0 +1,103 @@
+.regipara{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(235, 141, 21, 1);
+}
+.abotpara{
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+}
+.subpara{
+    font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+}
+.redDiv{
+ 
+    height: 11rem;
+    width: 17rem;
+    border: 1px solid rgba(252, 221, 236, 1); 
+border-radius: 10px;
+    background-color: rgb(254, 243, 239);
+   justify-content: center;
+   text-align: center;
+padding-top: 2rem;
+}
+.mainHead1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.subHead{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+}
+
+.greenDiv{
+  
+    height: 11rem;
+    width: 17rem;
+    border: 1px solid rgba(252, 221, 236, 1); 
+border-radius: 10px;
+    background-color: rgb(241, 251, 243);
+   justify-content: center;
+   text-align: center;
+padding-top: 2rem;
+}
+.gropDiv{
+    display: grid;
+    justify-content: end;
+
+}
+.sec{
+    display: flex;
+    margin-top: 4rem;
+ 
+
+   
+}
+.blueDiv{
+  
+    height: 11rem;
+    width: 17rem;
+    border: 1px solid rgba(252, 221, 236, 1); 
+border-radius: 10px;
+    background-color: rgb(237, 243, 255);
+   justify-content: center;
+   text-align: center;
+padding-top: 2rem;
+margin-left:20rem;
+margin-top: -1rem;
+}
+.pinkDiv{
+   
+    height: 11rem;
+    width: 17rem;
+    border: 1px solid rgba(252, 221, 236, 1); 
+border-radius: 10px;
+    background-color:rgb(251, 241, 251);
+   justify-content: center;
+   text-align: center;
+padding-top: 2rem;
+}
+.regis{
+    display: grid;
+}
+.orangepara{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(235, 141, 21, 1);
+    line-height: 21px;
+}
+.grop{
+    margin-left: 8rem;
+    display: flex;
+    gap:2rem
+}
+.grop2{
+    margin-left: 8rem;
+    display: flex;
+    gap:2rem
+}

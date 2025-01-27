@@ -1,0 +1,60 @@
+.imgcon{
+    display: flex;
+}
+.diisimage{
+    justify-content: center;
+    padding-top: 2rem;
+   
+}
+.video1{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem;
+   padding-top: 4rem;
+   padding-bottom: 4rem;
+   
+}
+.intro{
+    color: rgba(255, 255, 255, 1);
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.footer{
+    justify-content: end;
+}
+.videoman{
+    background-color: rgba(28, 70, 112, 1);
+}
+.intropara{
+    font-size: 16px;
+    line-height: 24px;
+    color:rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+.introsec{
+    padding-left: 2rem;
+    color:rgba(255, 255, 255, 1);
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.introsubpara{
+    padding-left: 2rem;
+    color:rgba(170, 181, 205, 1);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: -1rem;
+}
+@media screen and (max-width: 992px) {
+    .videoman {
+        width: 90rem !important;
+   }
+}
+   /* On screens that are 600px wide or less, the background color is olive */
+   @media screen and (max-width: 600px) {
+    .videoman {
+        width: 90rem !important;
+   }}
+  

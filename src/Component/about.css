@@ -1,0 +1,30 @@
+.about{
+   margin-top: 40rem;
+   display: grid;
+   justify-content: center;
+
+}
+.trust{
+    font-size: 22px;
+    font-weight: 700;
+    display: grid;
+    justify-content: center;
+ 
+}
+.img{
+  padding-left: 4rem;
+}
+.imgdiv{
+  margin-bottom: 4rem;
+}
+@media screen and (max-width: 992px) {
+  .about {
+    width: 90rem !important;}
+ 
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  .about {
+    width: 90rem !important;}
+}
